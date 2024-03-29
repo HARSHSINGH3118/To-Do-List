@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { FaEdit } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
 import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   const [todo, setTodo] = useState(" ");
